@@ -1,6 +1,6 @@
 ﻿import typing
 
-from Domain.Board.Direction import Direction
+from PythonSolver.Domain.Board.Direction import Direction
 
 PipeString = typing.Literal[
     "L0", "L1", "L2", "L3",

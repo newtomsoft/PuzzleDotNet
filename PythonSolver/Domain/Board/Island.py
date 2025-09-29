@@ -1,7 +1,7 @@
 import typing
 
-from Domain.Board.Direction import Direction
-from Domain.Board.Position import Position
+from PythonSolver.Domain.Board.Direction import Direction
+from PythonSolver.Domain.Board.Position import Position
 
 IslandString0Bridge = typing.Literal[
     '   ', ' X ', ' · '

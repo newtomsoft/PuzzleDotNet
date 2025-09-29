@@ -1,8 +1,9 @@
 import unittest
 from unittest import TestCase
 
-from Domain.Board.Island import Island
-from Domain.Board.Position import Position
+
+from PythonSolver.Domain.Board.Island import Island
+from PythonSolver.Domain.Board.Position import Position
 
 
 class IslandTest(TestCase):

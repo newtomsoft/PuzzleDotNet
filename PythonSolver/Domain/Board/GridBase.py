@@ -4,10 +4,9 @@ from typing import FrozenSet, Generator, TypeVar, Iterable, Any
 
 from bitarray import bitarray
 
-from Domain.Board.Direction import Direction
-from Domain.Board.Position import Position
-from Domain.Puzzles.Pipes.PipeShapeTransition import PipeShapeTransition
-from Utils.colors import console_back_ground_colors, console_police_colors
+from PythonSolver.Domain.Board.Direction import Direction
+from PythonSolver.Domain.Board.Position import Position
+from PythonSolver.Utils.colors import console_back_ground_colors, console_police_colors
 
 T = TypeVar('T')
 

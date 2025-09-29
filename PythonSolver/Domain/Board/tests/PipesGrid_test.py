@@ -1,9 +1,9 @@
 ﻿from unittest import TestCase
 
-from Domain.Board.Direction import Direction
-from Domain.Board.Pipe import Pipe
-from Domain.Board.PipesGrid import PipesGrid
-from Domain.Board.Position import Position
+from PythonSolver.Domain.Board.Direction import Direction
+from PythonSolver.Domain.Board.Pipe import Pipe
+from PythonSolver.Domain.Board.PipesGrid import PipesGrid
+from PythonSolver.Domain.Board.Position import Position
 
 
 class PipesGridTest(TestCase):

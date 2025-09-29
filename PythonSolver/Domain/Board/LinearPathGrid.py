@@ -1,6 +1,6 @@
-﻿from Domain.Board.Grid import Grid
-from Domain.Board.Path import PathCell
-from Domain.Board.Position import Position
+﻿from PythonSolver.Domain.Board.Grid import Grid
+from PythonSolver.Domain.Board.Path import PathCell
+from PythonSolver.Domain.Board.Position import Position
 
 
 class LinearPathGrid(Grid[PathCell]):

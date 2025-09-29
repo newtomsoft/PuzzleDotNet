@@ -1,6 +1,6 @@
 ﻿import math
 
-from Domain.Board.Direction import Direction
+from PythonSolver.Domain.Board.Direction import Direction
 
 
 class Position:

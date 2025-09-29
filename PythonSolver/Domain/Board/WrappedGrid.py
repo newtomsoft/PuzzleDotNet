@@ -4,9 +4,9 @@ from typing import Tuple, FrozenSet, Dict, List, TypeVar, Set, Generic, Iterable
 
 from bitarray import bitarray
 
-from Domain.Board.Grid import Grid
-from Domain.Board.GridBase import GridBase
-from Domain.Board.Position import Position
+from PythonSolver.Domain.Board.Grid import Grid
+from PythonSolver.Domain.Board.GridBase import GridBase
+from PythonSolver.Domain.Board.Position import Position
 
 T = TypeVar('T')
 

@@ -1,7 +1,7 @@
-from Domain.Board.Direction import Direction
-from Domain.Board.Grid import Grid
-from Domain.Board.Island import Island
-from Domain.Board.Position import Position
+from PythonSolver.Domain.Board.Direction import Direction
+from PythonSolver.Domain.Board.Grid import Grid
+from PythonSolver.Domain.Board.Island import Island
+from PythonSolver.Domain.Board.Position import Position
 
 
 class IslandGrid(Grid[Island]):

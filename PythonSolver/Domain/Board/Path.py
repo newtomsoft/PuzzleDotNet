@@ -1,6 +1,6 @@
 ﻿import typing
 
-from Domain.Board.Direction import Direction
+from PythonSolver.Domain.Board.Direction import Direction
 
 StartPathCellString = typing.Literal["S0", "S1", "S2", "S3",]
 EndPathCellString = typing.Literal["E0", "E1", "E2", "E3",]

@@ -1,7 +1,7 @@
 from typing import List, Set
 
-from Domain.Board.Grid import Grid
-from Domain.Board.Position import Position
+from PythonSolver.Domain.Board.Grid import Grid
+from PythonSolver.Domain.Board.Position import Position
 
 
 class RegionsGrid(Grid):

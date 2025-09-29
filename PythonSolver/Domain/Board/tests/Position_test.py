@@ -1,8 +1,8 @@
 ﻿import math
 from unittest import TestCase
 
-from Domain.Board.Direction import Direction
-from Domain.Board.Position import Position
+from PythonSolver.Domain.Board.Direction import Direction
+from PythonSolver.Domain.Board.Position import Position
 
 
 class PositionTest(TestCase):

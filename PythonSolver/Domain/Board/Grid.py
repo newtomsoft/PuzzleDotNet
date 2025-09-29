@@ -4,11 +4,10 @@ from typing import TypeVar, Iterable
 
 from bitarray import bitarray
 
-from Domain.Board.GridBase import GridBase
-from Domain.Board.Island import Island
-from Domain.Board.Position import Position
-from Domain.Puzzles.Pipes.PipeShapeTransition import PipeShapeTransition
-from Utils.colors import console_back_ground_colors, console_police_colors
+from PythonSolver.Domain.Board.GridBase import GridBase
+from PythonSolver.Domain.Board.Island import Island
+from PythonSolver.Domain.Board.Position import Position
+from PythonSolver.Utils.colors import console_back_ground_colors, console_police_colors
 
 T = TypeVar('T')
 
@@ -27,8 +26,6 @@ class Grid[T](GridBase[T]):
     def __repr__(self) -> str:
         if self.is_empty():
             return 'Grid.empty()'
-        if isinstance(self[Position(0, 0)], PipeShapeTransition | Island):
-            return '\n'.join(''.join(str(cell) for cell in row) for row in self._matrix)
         return '\n'.join(' '.join(str(cell) for cell in row) for row in self._matrix)
 
     def __hash__(self):

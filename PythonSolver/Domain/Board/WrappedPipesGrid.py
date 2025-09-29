@@ -1,8 +1,8 @@
 ﻿from typing import Tuple
 
-from Domain.Board.Pipe import Pipe
-from Domain.Board.Position import Position
-from Domain.Board.WrappedGrid import WrappedGrid
+from PythonSolver.Domain.Board.Pipe import Pipe
+from PythonSolver.Domain.Board.Position import Position
+from PythonSolver.Domain.Board.WrappedGrid import WrappedGrid
 
 
 class WrappedPipesGrid(WrappedGrid[Pipe]):

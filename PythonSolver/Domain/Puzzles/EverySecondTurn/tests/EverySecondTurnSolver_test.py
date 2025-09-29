@@ -1,9 +1,9 @@
 ﻿import unittest
 from unittest import TestCase
 
-from Domain.Board.Grid import Grid
-from Domain.Board.IslandsGrid import IslandGrid
-from Domain.Puzzles.EverySecondTurn.EverySecondTurnSolver import EverySecondTurnSolver
+from PythonSolver.Domain.Board.Grid import Grid
+from PythonSolver.Domain.Board.IslandsGrid import IslandGrid
+from PythonSolver.Domain.Puzzles.EverySecondTurn.EverySecondTurnSolver import EverySecondTurnSolver
 
 _ = '.'
 X = '*'

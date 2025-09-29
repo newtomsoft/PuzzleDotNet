@@ -3,9 +3,9 @@ from unittest import TestCase
 
 from bitarray import bitarray
 
-from Domain.Board.Grid import Grid
-from Domain.Board.Position import Position
-from Utils.colors import (
+from PythonSolver.Domain.Board.Grid import Grid
+from PythonSolver.Domain.Board.Position import Position
+from PythonSolver.Utils.colors import (
     console_back_ground_colors,
     console_police_colors,
     remove_ansi_escape_sequences,

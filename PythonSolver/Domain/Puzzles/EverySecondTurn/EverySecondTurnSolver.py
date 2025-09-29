@@ -1,11 +1,11 @@
 ﻿from z3 import Solver, Not, And, Int, sat, ArithRef, Or, Sum
 
-from Domain.Board.Direction import Direction
-from Domain.Board.Grid import Grid
-from Domain.Board.Island import Island
-from Domain.Board.IslandsGrid import IslandGrid
-from Domain.Board.Position import Position
-from Domain.Puzzles.GameSolver import GameSolver
+from PythonSolver.Domain.Board.Direction import Direction
+from PythonSolver.Domain.Board.Grid import Grid
+from PythonSolver.Domain.Board.Island import Island
+from PythonSolver.Domain.Board.IslandsGrid import IslandGrid
+from PythonSolver.Domain.Board.Position import Position
+from PythonSolver.Domain.Puzzles.GameSolver import GameSolver
 
 X = '*'
 _ = '.'

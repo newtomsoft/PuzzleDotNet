@@ -1,7 +1,7 @@
 ﻿import itertools
 from typing import Collection
 
-from Domain.Board.Position import Position
+from PythonSolver.Domain.Board.Position import Position
 
 
 class ShapeGenerator:
