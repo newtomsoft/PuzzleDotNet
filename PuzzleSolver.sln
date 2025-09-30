@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuzzleSolver.Domain", "PuzzleSolver.Domain\PuzzleSolver.Domain.csproj", "{9CF049E0-E6A1-439A-9AD2-F013B2D06F9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetSolver.Utils", "DotNetSolver.Utils\DotNetSolver.Utils.csproj", "{F7122693-EC1D-44C3-AC11-504BF7C5A46E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetSolver.Domain", "DotNetSolver.Domain\DotNetSolver.Domain.csproj", "{98BB37C1-4E0F-4B2F-B797-0466BD011AEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9CF049E0-E6A1-439A-9AD2-F013B2D06F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CF049E0-E6A1-439A-9AD2-F013B2D06F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CF049E0-E6A1-439A-9AD2-F013B2D06F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CF049E0-E6A1-439A-9AD2-F013B2D06F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7122693-EC1D-44C3-AC11-504BF7C5A46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7122693-EC1D-44C3-AC11-504BF7C5A46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7122693-EC1D-44C3-AC11-504BF7C5A46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7122693-EC1D-44C3-AC11-504BF7C5A46E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98BB37C1-4E0F-4B2F-B797-0466BD011AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98BB37C1-4E0F-4B2F-B797-0466BD011AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98BB37C1-4E0F-4B2F-B797-0466BD011AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98BB37C1-4E0F-4B2F-B797-0466BD011AEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
